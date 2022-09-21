@@ -11,7 +11,7 @@ const data = ref([
   {
     title: 'Virtual Staging',
     images: ['image2'],
-    text: 'Our staging will help you sell the potential of your space. We can work off of our own photography or photos you provide.',
+    text: 'Our staging will help you sell the potential of your space. \n We can work off of our own photography or photos you provide.',
   },
   {
     title: 'Renderings',
@@ -195,6 +195,7 @@ h1 {
   margin-top: 40px;
 }
 .text {
+  white-space: pre-line;
   font-family: 'Nunito Sans';
   font-style: normal;
   font-weight: 600;
