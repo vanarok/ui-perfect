@@ -38,6 +38,10 @@ const data = ref([
     list: ['Drone Cinematography', 'Interiors', 'Exteriors / Architectural'],
   },
 ]);
+
+function getImageUrl(name) {
+  return new URL(`./assets/${name}.png`, import.meta.url).href;
+}
 const goToUpwork = () =>
   (window.location = 'https://www.upwork.com/freelancers/~01d481153ecadb517e');
 
@@ -67,7 +71,7 @@ const cardBodyStyle = {
               <div class="post-images">
                 <el-image
                   v-for="image in post.images"
-                  :src="`src/assets/${image}.png`"
+                  :src="getImageUrl(image)"
                   fit="none"
                 >
                   <template #placeholder>
