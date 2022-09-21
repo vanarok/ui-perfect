@@ -232,11 +232,16 @@ ul li::before {
   font-style: normal;
   font-weight: 700;
   font-size: 17px;
-  line-height: 60px;
+  line-height: 40px;
   color: #ffffff;
   border-color: #1b264f;
   text-align: center;
   margin-top: 80px;
+  align-items: center;
+  padding: 0px 70px;
+  text-align: center;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
 }
 .start-button:hover {
   background: #3f4d81;
