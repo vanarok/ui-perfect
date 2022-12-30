@@ -18,7 +18,7 @@ const pathSrc = path.resolve(__dirname, 'src');
 
 // https://vitejs.dev/config/
 export default defineConfig({
-  base: '/ui-perfect-template/',
+  base: '/ui-perfect/',
   resolve: {
     alias: {
       '~/': `${pathSrc}/`,
