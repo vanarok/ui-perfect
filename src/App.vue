@@ -53,7 +53,7 @@ const cardBodyStyle = {
 <template>
   <el-config-provider namespace="ep">
     <div class="header-1 mt-27">
-      <h1 class="ma-0 pa-0">
+      <h1 class="md:ma-0 md:pa-0">
         We make creative media that
         <span color="#506BCA">adds value</span>
       </h1>
@@ -126,7 +126,6 @@ h1 {
   font-size: 56px;
   line-height: 55px;
   width: 730px;
-  height: 110px;
 }
 
 .header-1 {
@@ -158,7 +157,6 @@ h1 {
 .posts {
   display: flex;
   flex-wrap: wrap;
-  width: 1400px;
   justify-content: center;
   gap: 40px 30px;
 }
@@ -166,11 +164,11 @@ h1 {
   display: flex;
   flex-direction: row;
 
-  width: 435.5px;
-  height: 334px;
+  height: 100%;
 
   border-radius: 8px;
   border: 0px;
+  padding-right: 50px;
 }
 .post-container {
   display: flex;
@@ -180,6 +178,7 @@ h1 {
 .post-images {
   display: flex;
   gap: 3px;
+  height: 100%;
   flex-direction: column;
   margin-right: 34px;
 }
