@@ -26,8 +26,8 @@ npm run build
 ## Usage
 
 ```bash
-git clone https://github.com/vanarok/ui-perfect-template.git
-cd ui-perfect-template
+git clone https://github.com/vanarok/ui-perfect.git
+cd ui-perfect
 npm i
 npm run dev
 ```
